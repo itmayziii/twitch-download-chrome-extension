@@ -1,7 +1,6 @@
 try {
   await main()
 } catch (error) {
-  // TODO maybe we should report this error somewhere
   console.error('Failed to insert Twitch download link', error)
 }
 
