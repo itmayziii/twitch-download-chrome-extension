@@ -1,0 +1,14 @@
+{
+  "release-type": "node",
+  "package-name": "twitch-download-chrome-extension",
+  "extra-files": [
+    {
+      "type": "json",
+      "path": "manifest.json",
+      "jsonpath": "$.version"
+    }
+  ],
+  "packages": {
+    ".": {}
+  }
+}
