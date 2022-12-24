@@ -31,7 +31,6 @@ async function waitForEl<E extends Element> (selector: string, condition?: Condi
     const els = document.querySelectorAll<E>(selector)
     els.forEach(el => {
       if (condition === undefined || condition(el)) {
-        console.log('Immediately matched El', el)
         return resolve(el)
       }
     })
@@ -54,7 +53,6 @@ async function waitForEl<E extends Element> (selector: string, condition?: Condi
           clearTimeout(timeoutId)
         }
 
-        console.log('Matched el in mutation observer', el)
         observer.disconnect()
         return resolve(el)
       }
