@@ -1,7 +1,7 @@
 try {
   await main()
 } catch (error) {
-  console.error('Failed to insert Twitch download link', error)
+  console.error(error)
 }
 
 async function main (): Promise<void> {
