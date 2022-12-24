@@ -9,6 +9,6 @@
     }
   ],
   "packages": {
-    ".": {}
+    "path/to/pkg": {}
   }
 }
