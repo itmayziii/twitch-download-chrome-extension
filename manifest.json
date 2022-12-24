@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Twitch Download",
   "description": "Download media from Twitch.",
-  "version": "1.0",
+  "version": "1.0.0",
   "icons": {
     "16": "images/joystick-16.png",
     "32": "images/joystick-32.png",
@@ -11,7 +11,9 @@
   },
   "content_scripts": [
     {
-      "js": ["dist/content.js"],
+      "js": [
+        "dist/content.js"
+      ],
       "matches": [
         "https://www.twitch.tv/*"
       ],
