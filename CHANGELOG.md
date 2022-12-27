@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/itmayziii/twitch-download-chrome-extension/compare/twitch-download-chrome-extension-v1.1.0...twitch-download-chrome-extension-v1.1.1) (2022-12-27)
+
+
+### Bug Fixes
+
+* **src/content.ts:** changing URLs witout refreshing was not generating the link, now it does ([6dbd3ac](https://github.com/itmayziii/twitch-download-chrome-extension/commit/6dbd3ac8757d4861118e6eb5d1d427bc32e3bf65))
+
 ## [1.1.0](https://github.com/itmayziii/twitch-download-chrome-extension/compare/twitch-download-chrome-extension-v1.0.0...twitch-download-chrome-extension-v1.1.0) (2022-12-24)
 
 
