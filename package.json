@@ -1,6 +1,6 @@
 {
   "name": "twitch-download-chrome-extension",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Chrome extension to provide download links for Twitch clips.",
   "main": "dist/content.js",
   "scripts": {
